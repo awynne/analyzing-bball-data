@@ -13,5 +13,5 @@ Success.Rate = SB/SB.Attempt
 SB.Game = SB / G
 
 plot(SB.Game, Success.Rate)
-text(SB.Game, Success.Rate, labels=players)
+text(SB.Game, Success.Rate, labels=players, cex=0.7, pos=3)
 
