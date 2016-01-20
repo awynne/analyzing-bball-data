@@ -15,3 +15,8 @@ SB.Game = SB / G
 plot(SB.Game, Success.Rate)
 text(SB.Game, Success.Rate, labels=players, cex=0.7, pos=3)
 
+## Exercise 1e
+#
+#* Max Carey's SB success rate is much higher than the rest.  Lou Brock's 
+#  success rate is the lowest
+#* Ricky henderson has the highest number of stolen bases per game
