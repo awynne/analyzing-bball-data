@@ -31,4 +31,5 @@ pitching.stats = merge(Pitching, career.pitching, by="playerID")
 career.10000 = subset(pitching.stats, c.IPouts >= 10000)
 
 with(career.10000, plot(c.midYear, c.SO / c.BB))
+with(career.10000, lines(lowess(c.midYear, c.SO / c.BB)))
 
